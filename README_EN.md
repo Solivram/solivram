@@ -8,6 +8,8 @@
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
 ![Origin](https://img.shields.io/badge/origin-France-blue)
+[![FR](https://img.shields.io/badge/🇫🇷%20FR-0055A4?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README.md)
+[![EN](https://img.shields.io/badge/🇬🇧%20EN-012169?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README_EN.md)
 
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
