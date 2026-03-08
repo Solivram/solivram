@@ -1,5 +1,9 @@
 # solivram
 
+<p align="center">
+  <img src="solivram.png" alt="solivram logo" width="160"/>
+</p>
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
