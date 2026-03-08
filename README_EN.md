@@ -8,6 +8,8 @@
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
 ![Origin](https://img.shields.io/badge/origin-France-blue)
+[![🇫🇷 Français](https://img.shields.io/badge/🇫🇷%20Français-0055A4)](https://github.com/Solivram/solivram/blob/main/README.md)
+[![🇬🇧 English](https://img.shields.io/badge/🇬🇧%20English-012169)](https://github.com/Solivram/solivram/blob/main/README_EN.md)
 
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
@@ -21,15 +23,6 @@
 **Version** : 0.1.0 — 2026-03-08
 **Type** : Server / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
-
-<p align="center">
-  <a href="https://github.com/Solivram/solivram/blob/main/README.md">
-    <img src="https://img.shields.io/badge/🇫🇷%20Français-0055A4?style=flat-square" alt="Français"/>
-  </a>
-  <a href="https://github.com/Solivram/solivram/blob/main/README_EN.md">
-    <img src="https://img.shields.io/badge/🇬🇧%20English-012169?style=flat-square" alt="English"/>
-  </a>
-</p>
 
 ---
 
