@@ -12,6 +12,12 @@
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique,
 > observable et extensible, conçue en Rust pur pour des environnements critiques.
 
+<p align="center">
+  <a href="https://github.com/Solivram/solivram-releases/releases">
+    <img src="https://img.shields.io/badge/⬇️%20Télécharger%20solivram%20v0.1.0-2ea44f?style=for-the-badge" alt="Télécharger"/>
+  </a>
+</p>
+
 **Auteur** : Jenka Nauta — France
 **Version** : 0.1.0 — 2026-03-08
 **Type** : Serveur / Daemon
@@ -107,12 +113,6 @@ solivram identity:verify
 | Santé | [Pitch_Sante_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Sante_FR.pdf) | [Pitch_Healthcare_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Healthcare_EN.pdf) |
 | Finance | [Pitch_Finance_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Finance_FR.pdf) | [Pitch_Finance_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Finance_EN.pdf) |
 | Agents IA | [Pitch_Agents_IA_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Agents_IA_FR.pdf) | [Pitch_Agents_IA_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Pitch_Agents_IA_EN.pdf) |
-
----
-
-## Téléchargement
-
-➡️ [**solivram v0.1.0 — Releases**](https://github.com/Solivram/solivram-releases/releases/tag/v0.1.0)
 
 ---
 
