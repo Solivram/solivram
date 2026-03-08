@@ -83,7 +83,38 @@ sudo dpkg -i solivram_0.1.0_amd64.deb
 solivram --help
 ```
 
-**Dépendances** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
+**Dépendances** :
+
+### Configuration PATH
+
+```bash
+# Ajouter solivram au PATH (permanent)
+echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc && source ~/.bashrc
+```
+
+### Permissions d'exécution
+
+```bash
+# Si le binaire est bloqué à l'exécution
+chmod +x /usr/bin/solivram
+
+# Autoriser les ports < 1024 sans sudo
+sudo setcap cap_net_bind_service=+ep /usr/bin/solivram
+```
+
+### Si bloqué par l'OS (AppArmor / SELinux)
+
+```bash
+# Vérifier si AppArmor bloque solivram
+sudo aa-status | grep solivram
+
+# Désactiver AppArmor temporairement pour solivram
+sudo aa-complain /usr/bin/solivram
+
+# Ou ajouter une exception SELinux
+sudo semanage fcontext -a -t bin_t '/usr/bin/solivram'
+sudo restorecon -v /usr/bin/solivram
+``` `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
 
 ---
 
