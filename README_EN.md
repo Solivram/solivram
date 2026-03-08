@@ -4,7 +4,10 @@
   <img src="solivram.png" alt="solivram logo" width="160"/>
 </p>
 
-\![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) \![Version](https://img.shields.io/badge/version-0.1.0-blue) \![Rust](https://img.shields.io/badge/built%20with-Rust-orange) \![Origin](https://img.shields.io/badge/origin-France-blue) [\![🇫🇷 Français](https://img.shields.io/badge/🇫🇷%20Français-0055A4)](https://github.com/Solivram/solivram/blob/main/README.md) [\![🇬🇧 English](https://img.shields.io/badge/🇬🇧%20English-012169)](https://github.com/Solivram/solivram/blob/main/README_EN.md)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
+![Origin](https://img.shields.io/badge/origin-France-blue)
 
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
