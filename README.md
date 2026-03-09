@@ -44,6 +44,8 @@
 | **API REST** | Axum — auth Bearer, RBAC 5 rôles, rate-limiter, CORS |
 | **Stockage chiffré** | redb + AES-256-GCM + rotation des clés |
 | **Reverse proxy HA** | Circuit-breaker, backends dynamiques |
+| **Chiffrement E2E** | ML-KEM-768 + AES-256-GCM, bout en bout entre clients |
+| **Trust inter-nœuds** | Signaux de confiance, API admin accept/revoke |
 | **GUI native** | Interface egui |
 | **Sessions sécurisées** | TTL 1h + 2FA TOTP RFC 6238 |
 
