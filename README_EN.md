@@ -21,7 +21,7 @@
 </p>
 
 **Author** : Jenka Nauta — France
-**Version** : 0.1.0 — 2026-03-08
+**Version** : 0.1.0 — 2026-03-09
 **Type** : Server / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
