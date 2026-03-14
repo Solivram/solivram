@@ -9,8 +9,12 @@
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
 ![Origine](https://img.shields.io/badge/origine-France-blue)
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
-[![FR](https://img.shields.io/badge/🇫🇷%20FR-0055A4?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README.md)
-[![EN](https://img.shields.io/badge/🇬🇧%20EN-012169?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README_EN.md)
+
+<p align="center">
+  <a href="https://github.com/Solivram/solivram/blob/main/README.md"><strong>🇫🇷 Français</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Solivram/solivram/blob/main/README_EN.md"><strong>🇬🇧 English</strong></a>
+</p>
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 
@@ -21,7 +25,7 @@
 </p>
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.1.0 — 2026-03-11
+**Version** : 0.1.0 — 2026-03-14
 **Type** : Serveur / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -79,55 +83,21 @@ Une autorité de certification déploie solivram pour :
 - **Architecture** : x86-64 uniquement
 
 ```bash
-# Vérifier l'architecture
 uname -m  # doit afficher x86_64
 ```
 
 ## Installation
 
-### Debian / Ubuntu
-
 ```bash
-# Via curl (recommandé)
 curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/solivram_0.1.0_amd64.deb && sudo dpkg -i solivram_0.1.0_amd64.deb
-
-# Ou télécharger manuellement
-sudo dpkg -i solivram_0.1.0_amd64.deb
 solivram --help
 ```
 
-**Dépendances** :
-
-### Configuration PATH
+**Dépendances** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
 
 ```bash
-# Ajouter solivram au PATH (permanent)
-echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc && source ~/.bashrc
-```
-
-### Permissions d'exécution
-
-```bash
-# Si le binaire est bloqué à l'exécution
-chmod +x /usr/bin/solivram
-
-# Autoriser les ports < 1024 sans sudo
 sudo setcap cap_net_bind_service=+ep /usr/bin/solivram
 ```
-
-### Si bloqué par l'OS (AppArmor / SELinux)
-
-```bash
-# Vérifier si AppArmor bloque solivram
-sudo aa-status | grep solivram
-
-# Désactiver AppArmor temporairement pour solivram
-sudo aa-complain /usr/bin/solivram
-
-# Ou ajouter une exception SELinux
-sudo semanage fcontext -a -t bin_t '/usr/bin/solivram'
-sudo restorecon -v /usr/bin/solivram
-``` `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
 
 ---
 
@@ -145,24 +115,11 @@ solivram identity:verify
 
 ---
 
-
-## Vérification post-installation
-
-```bash
-solivram --version
-solivram --help
-solivram identity:verify
-# ✅ P-256 valide | ✅ ML-DSA valide
-```
-
 ## Premier démarrage
 
 ```bash
-# Lancer solivram en mode terminal
-solivram
-
-# Lancer solivram en mode GUI
-solivram --gui
+solivram --config /etc/solivram/default.toml headless
+solivram --config /etc/solivram/default.toml api
 ```
 
 ## Désinstallation
@@ -171,12 +128,19 @@ solivram --gui
 sudo dpkg -r solivram
 ```
 
+---
+
 ## Documentation
 
 | Document | Français | English |
 |----------|----------|---------|
-| **Mise en garde** | [Solivram_Mise_En_Garde_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Mise_En_Garde_FR.pdf) | [Solivram_Warning_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Warning_EN.pdf) |
+| **Mise en garde & cartographie** | [Solivram_Mise_En_Garde_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Mise_En_Garde_FR.pdf) | [Solivram_Warning_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Warning_EN.pdf) |
 | **Quickstart** | [Solivram_Quickstart.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Quickstart.pdf) | [Solivram_Quickstart_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Quickstart_EN.pdf) |
+| **Vue d'ensemble** | [Solivram_Overview.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Overview.pdf) | — |
+| **Guide administrateur** | [Solivram_Guide_Admin_fr.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Guide_Admin_fr.pdf) | [Solivram_Admin_Guide_en.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Admin_Guide_en.pdf) |
+| **Configuration production** | [Solivram_Config_Prod_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_FR.pdf) | [Solivram_Config_Prod_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_EN.pdf) |
+| **Configuration complète** | [Solivram_Config_Prod_full_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_full_FR.pdf) | [Solivram_Config_Prod_full_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_full_EN.pdf) |
+| **Exception hot-reload security_level** | [FR](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_Security_Level_FR.pdf) | [EN](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_Security_Level_EN.pdf) |
 
 ---
 
