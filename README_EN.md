@@ -9,8 +9,12 @@
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
 ![Origin](https://img.shields.io/badge/origin-France-blue)
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
-[![FR](https://img.shields.io/badge/🇫🇷%20FR-0055A4?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README.md)
-[![EN](https://img.shields.io/badge/🇬🇧%20EN-012169?style=flat-square)](https://github.com/Solivram/solivram/blob/main/README_EN.md)
+
+<p align="center">
+  <a href="https://github.com/Solivram/solivram/blob/main/README.md"><strong>🇫🇷 Français</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Solivram/solivram/blob/main/README_EN.md"><strong>🇬🇧 English</strong></a>
+</p>
 
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
@@ -21,7 +25,7 @@
 </p>
 
 **Author** : Jenka Nauta — France
-**Version** : 0.1.0 — 2026-03-11
+**Version** : 0.1.0 — 2026-03-14
 **Type** : Server / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -177,6 +181,11 @@ sudo dpkg -r solivram
 |----------|----------|---------|
 | **Warning & Map** | [Solivram_Mise_En_Garde_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Mise_En_Garde_FR.pdf) | [Solivram_Warning_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Warning_EN.pdf) |
 | **Quickstart** | [Solivram_Quickstart.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Quickstart.pdf) | [Solivram_Quickstart_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Quickstart_EN.pdf) |
+| **Overview** | [Solivram_Vue_Ensemble_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Vue_Ensemble_FR.pdf) | [Solivram_Overview_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Overview_EN.pdf) |
+| **Admin Guide** | [Solivram_Guide_Admin_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Guide_Admin_FR.pdf) | [Solivram_Admin_Guide_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Admin_Guide_EN.pdf) |
+| **Production Config** | [Solivram_Config_Prod_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_FR.pdf) | [Solivram_Config_Prod_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_EN.pdf) |
+| **Full Config** | [Solivram_Config_Complete_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Complete_FR.pdf) | [Solivram_Config_Complete_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Complete_EN.pdf) |
+| **Hot-reload Exception** | [Solivram_Exception_Hot_Reload_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_FR.pdf) | [Solivram_Exception_Hot_Reload_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_EN.pdf) |
 
 ---
 
