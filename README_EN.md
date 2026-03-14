@@ -186,6 +186,7 @@ sudo dpkg -r solivram
 | **Production Config** | [Solivram_Config_Prod_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_FR.pdf) | [Solivram_Config_Prod_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_EN.pdf) |
 | **Full Config** | [Solivram_Config_Prod_full_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_full_FR.pdf) | [Solivram_Config_Prod_full_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Config_Prod_full_EN.pdf) |
 | **Hot-reload Exception** | [Solivram_Exception_Hot_Reload_Security_Level_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_Security_Level_FR.pdf) | [Solivram_Exception_Hot_Reload_Security_Level_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Exception_Hot_Reload_Security_Level_EN.pdf) |
+| **Roadmap v0.2.0** | [Solivram_Roadmap_v0.2.0_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Roadmap_v0.2.0_FR.pdf) | [Solivram_Roadmap_v0.2.0_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.1.0/Solivram_Roadmap_v0.2.0_EN.pdf) |
 
 ---
 
