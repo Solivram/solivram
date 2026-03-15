@@ -19,8 +19,8 @@
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
 <p align="center">
-  <a href="https://github.com/Solivram/solivram-releases/releases">
-    <img src="https://img.shields.io/badge/⬇️%20Download%20solivram%20v0.2.0-2ea44f?style=for-the-badge" alt="Download"/>
+  <a href="https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20solivram%20v0.2.0%20(.deb)-2ea44f?style=for-the-badge" alt="Download"/>
   </a>
 </p>
 
