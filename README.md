@@ -15,8 +15,8 @@
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 
 <p align="center">
-  <a href="https://github.com/Solivram/solivram-releases/releases">
-    <img src="https://img.shields.io/badge/⬇️%20Télécharger%20solivram%20v0.2.0-2ea44f?style=for-the-badge" alt="Télécharger"/>
+  <a href="https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb">
+    <img src="https://img.shields.io/badge/⬇️%20Télécharger%20solivram%20v0.2.0%20(.deb)-2ea44f?style=for-the-badge" alt="Télécharger"/>
   </a>
 </p>
 
