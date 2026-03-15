@@ -10,11 +10,7 @@
 ![Origine](https://img.shields.io/badge/origine-France-blue)
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
 
-<p align="center">
-  <a href="README.md"><strong>🇫🇷 Français</strong></a>
-  &nbsp;·&nbsp;
-  <a href="README_EN.md"><strong>🇬🇧 English</strong></a>
-</p>
+🇫🇷 [Français](README.md) · 🇬🇧 [English](README_EN.md)
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 
