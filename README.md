@@ -11,9 +11,9 @@
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
 
 <p align="center">
-  <a href="https://github.com/Solivram/solivram/blob/main/README.md"><strong>🇫🇷 Français</strong></a>
+  <a href="README.md"><strong>🇫🇷 Français</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Solivram/solivram/blob/main/README_EN.md"><strong>🇬🇧 English</strong></a>
+  <a href="README_EN.md"><strong>🇬🇧 English</strong></a>
 </p>
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
