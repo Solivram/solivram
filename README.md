@@ -21,7 +21,7 @@
 </p>
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-03-21
+**Version** : 0.2.0 — 2026-03-22
 **Type** : Serveur / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -57,19 +57,6 @@
 - Entreprises PKI nécessitant une CA interne auditable
 - Chercheurs en cryptographie post-quantique (PQC)
 - Éditeurs SaaS B2B requérant haute disponibilité et conformité
-
----
-
-## Exemple — Autorité de certification
-
-Une autorité de certification déploie solivram pour :
-
-- Gérer sa PKI X.509 (CA racine, intermédiaire, feuilles, CRL)
-- Stocker les clés en AES-256-GCM avec rotation automatique
-- Signer en post-quantique via ML-DSA-65
-- Contrôler les accès par rôles (Admin / Opérateur / Superviseur / Lecteur / Invité) avec 2FA TOTP RFC 6238
-- Assurer la haute disponibilité via cluster Raft multi-nœuds
-- Auditer chaque opération via API REST Bearer + RBAC
 
 ---
 
@@ -173,4 +160,3 @@ curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/
 ---
 
 *solivram — Jenka Nauta — France — 2026*
-
