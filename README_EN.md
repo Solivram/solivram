@@ -25,7 +25,7 @@
 </p>
 
 **Author** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-03-21
+**Version** : 0.2.0 — 2026-03-22
 **Type** : Server / Daemon
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -55,83 +55,27 @@
 
 ---
 
-## Target users
-
-- DevOps / SRE teams looking for production-grade Rust infrastructure
-- PKI enterprises requiring an auditable internal CA
-- Post-quantum cryptography researchers
-- B2B SaaS vendors requiring high availability and compliance
-
----
-
-## Example — Certificate Authority
-
-A certificate authority deploys solivram to:
-
-- Manage its X.509 PKI (root CA, intermediate, leaf certs, CRL)
-- Store keys in AES-256-GCM with automatic rotation
-- Sign post-quantum via ML-DSA-65
-- Control access by roles (Admin / Operator / Supervisor / Reader / Guest) with 2FA TOTP RFC 6238
-- Ensure high availability via multi-node Raft cluster
-- Audit every operation via Bearer REST API + RBAC
-
----
-
 ## System requirements
 
 - **OS** : Debian 11+ / Ubuntu 20.04+ (amd64 x86-64)
 - **Architecture** : x86-64 only
 
 ```bash
-# Check architecture
 uname -m  # should display x86_64
 ```
 
 ## Installation
 
-### Debian / Ubuntu
-
 ```bash
-# Via curl (recommended)
 curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo dpkg -i solivram_0.2.0_amd64.deb
-
-# Or download manually
-sudo dpkg -i solivram_0.2.0_amd64.deb
 solivram --help
 ```
 
-**Dependencies** :
-
-### PATH configuration
+**Dependencies** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
 
 ```bash
-# Add solivram to PATH (permanent)
-echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc && source ~/.bashrc
-```
-
-### Execution permissions
-
-```bash
-# If the binary is blocked at execution
-chmod +x /usr/bin/solivram
-
-# Allow ports < 1024 without sudo
 sudo setcap cap_net_bind_service=+ep /usr/bin/solivram
 ```
-
-### If blocked by the OS (AppArmor / SELinux)
-
-```bash
-# Check if AppArmor is blocking solivram
-sudo aa-status | grep solivram
-
-# Temporarily disable AppArmor for solivram
-sudo aa-complain /usr/bin/solivram
-
-# Or add a SELinux exception
-sudo semanage fcontext -a -t bin_t '/usr/bin/solivram'
-sudo restorecon -v /usr/bin/solivram
-``` `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
 
 ---
 
@@ -149,24 +93,11 @@ solivram identity:verify
 
 ---
 
-
-## Post-installation check
-
-```bash
-solivram --version
-solivram --help
-solivram identity:verify
-# ✅ P-256 valid | ✅ ML-DSA valid
-```
-
 ## First start
 
 ```bash
-# Launch solivram in terminal mode
-solivram
-
-# Launch solivram in GUI mode
-solivram --gui
+solivram --config /etc/solivram/default.toml headless
+solivram --config /etc/solivram/default.toml api
 ```
 
 ## Uninstall
@@ -174,6 +105,8 @@ solivram --gui
 ```bash
 sudo dpkg -r solivram
 ```
+
+---
 
 ## Documentation
 
@@ -185,7 +118,7 @@ sudo dpkg -r solivram
 | **Admin Guide** | [Solivram_Guide_Admin_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Guide_Admin_FR.pdf) | [Solivram_Guide_Admin_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Guide_Admin_EN.pdf) |
 | **Production Config** | [Solivram_Config_Prod_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_FR.pdf) | [Solivram_Config_Prod_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_EN.pdf) |
 | **Full Config** | [Solivram_Config_Prod_full_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_full_FR.pdf) | [Solivram_Config_Prod_full_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_full_EN.pdf) |
-| **Hot-reload Exception** | [Solivram_Exception_Hot_Reload_Security_Level_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_FR.pdf) | [Solivram_Exception_Hot_Reload_Security_Level_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_EN.pdf) |
+| **Hot-reload Exception** | [FR](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_FR.pdf) | [EN](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_EN.pdf) |
 | **Roadmap v0.2.0** | [Solivram_Roadmap_v0.2.0_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Roadmap_v0.2.0_FR.pdf) | [Solivram_Roadmap_v0.2.0_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Roadmap_v0.2.0_EN.pdf) |
 | **Architecture** | [Solivram_Architecture.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Architecture.pdf) | [Solivram_Architecture_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Architecture_EN.pdf) |
 | **Developer Guide** | [Solivram_Manuel_Dev.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Manuel_Dev.pdf) | [Solivram_Manuel_Dev_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Manuel_Dev_EN.pdf) |
@@ -222,4 +155,3 @@ curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/
 ---
 
 *solivram — Jenka Nauta — France — 2026*
-
