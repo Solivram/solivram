@@ -31,6 +31,10 @@
 
 `Sécurité` · `Infrastructure distribuée` · `Post-Quantum Cryptography` · `Rust`
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Solivram/solivram/main/images/shema_technique_solivram.png" alt="Schéma technique des services solivram v0.2.0" width="100%"/>
+</p>
+
 ---
 
 ## Capacités principales
