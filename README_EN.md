@@ -26,7 +26,7 @@
 
 **Author** : Jenka Nauta — France
 **Version** : 0.2.0 — 2026-03-24
-**Type** : Server / Daemon
+**Type** : Post-Quantum Infrastructure Engine
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
 ---
