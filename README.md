@@ -1,9 +1,5 @@
 # solivram
 
-<p align="center">
-  <img src="solivram.png" alt="solivram logo" width="160"/>
-</p>
-
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-0.2.0-blue)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
@@ -11,6 +7,10 @@
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
 
 🇫🇷 [Français](README.md) · 🇬🇧 [English](README_EN.md)
+
+<p align="center">
+  <img src="solivram.png" alt="solivram logo" width="160"/>
+</p>
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 
