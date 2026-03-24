@@ -35,6 +35,10 @@
 
 `Security` · `Distributed Infrastructure` · `Post-Quantum Cryptography` · `Rust`
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Solivram/solivram/main/images/shema_technique_solivram.png" alt="solivram v0.2.0 — Technical services diagram" width="100%"/>
+</p>
+
 ---
 
 ## Core capabilities
