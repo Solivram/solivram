@@ -75,8 +75,13 @@ uname -m  # doit afficher x86_64
 
 ## Installation
 
-# Le champ Depends du paquet .deb liste toutes les dépendances.
-# dpkg -i seul ne les installe pas automatiquement — il faut soit apt soit apt-get qui les résoudra.
+
+---
+
+Le champ Depends du paquet .deb liste toutes les dépendances.
+dpkg -i seul ne les installe pas automatiquement — il faut soit apt soit apt-get qui les résoudra.
+
+---
 
 ```bash
 curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo apt install ./solivram_0.2.0_amd64.deb
