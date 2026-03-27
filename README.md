@@ -1,5 +1,9 @@
 # solivram
 
+<p align="center">
+  <img src="solivram.png" alt="solivram logo" width="160"/>
+</p>
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-0.2.0-blue)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
@@ -7,10 +11,6 @@
 ![Stars](https://img.shields.io/github/stars/Solivram/solivram?style=social)
 
 🇫🇷 [Français](README.md) · 🇬🇧 [English](README_EN.md)
-
-<p align="center">
-  <img src="solivram.png" alt="solivram logo" width="160"/>
-</p>
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 
@@ -21,7 +21,7 @@
 </p>
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-03-24 — Phase 224 — 1479 tests
+**Version** : 0.2.0 — 2026-03-27 — Phase 225 — 1478 tests
 **Type** : Post-Quantum Infrastructure Engine
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -75,16 +75,8 @@ uname -m  # doit afficher x86_64
 
 ## Installation
 
-
----
-
-Le champ Depends du paquet .deb liste toutes les dépendances.
-dpkg -i seul ne les installe pas automatiquement — il faut soit apt soit apt-get qui les résoudra.
-
----
-
 ```bash
-curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo apt install ./solivram_0.2.0_amd64.deb
+curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo dpkg -i solivram_0.2.0_amd64.deb
 solivram --help
 ```
 
