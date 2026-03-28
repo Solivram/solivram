@@ -112,7 +112,14 @@ solivram --config /etc/solivram/default.toml api
 ## Désinstallation
 
 ```bash
+# Désinstallation (conserve la config et les données)
 sudo apt remove solivram
+
+# Désinstallation complète (supprime aussi les fichiers de config)
+sudo apt purge solivram
+
+# Suppression complète des données (bases de données, certificats, clés)
+sudo rm -rf /var/lib/solivram/ /etc/solivram/
 ```
 
 ---
