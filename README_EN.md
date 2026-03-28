@@ -75,7 +75,7 @@ curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/
 solivram --help
 ```
 
-**Dependencies** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2`
+**Dependencies** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2` · `libcap2-bin` · `nftables`
 
 ```bash
 sudo setcap cap_net_bind_service=+ep /usr/bin/solivram
