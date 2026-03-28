@@ -76,7 +76,7 @@ uname -m  # doit afficher x86_64
 ## Installation
 
 ```bash
-curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo dpkg -i solivram_0.2.0_amd64.deb
+curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo apt install ./solivram_0.2.0_amd64.deb
 solivram --help
 ```
 
@@ -142,7 +142,7 @@ Oui. Solivram embarque une identité P-256 + ML-DSA-65 vérifiable via `solivram
 
 **Q : Comment mettre à jour solivram ?**
 ```bash
-curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo dpkg -i solivram_0.2.0_amd64.deb
+curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb && sudo apt install ./solivram_0.2.0_amd64.deb
 ```
 
 ## Pitchs sectoriels
