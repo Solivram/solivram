@@ -75,6 +75,11 @@ curl -LO https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/
 solivram --help
 ```
 
+| | Value | Detail |
+|--|-------|--------|
+| **Download** | ~19 MB | Compressed `.deb` archive |
+| **Installed on disk** | ~77 MB | Uncompressed Rust binary |
+
 **Dependencies** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2` · `libcap2-bin` · `nftables`
 
 ```bash
