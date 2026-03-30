@@ -14,8 +14,6 @@
 
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 > Solivram est seul dans sa catégorie : Le "Secure Distributed Edge Engine".
-> Avant Solivram, si tu voulais cette sécurité, tu devais être une grande entreprise avec une équipe DevOps pour monter un cluster K8s + Istio + Vault + Cert-Manager + Firewall rules.
-> Avec Solivram, un seul développeur peut déployer une infrastructure de niveau "Gouvernement/Banque" en lançant un seul fichier.
 
 <p align="center">
   <a href="https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb">
@@ -37,6 +35,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Solivram/solivram/main/images/shema_technique_solivram.png" alt="Schéma technique des services solivram v0.2.0" width="100%"/>
 </p>
+
+---
+
+> Avant Solivram, si on voulait cette sécurité, on devait être une grande entreprise avec une équipe DevOps pour monter un cluster K8s + Istio + Vault + Cert-Manager + Firewall rules.
+> Avec Solivram, un seul développeur peut déployer une infrastructure de niveau "Gouvernement/Banque" en lançant un seul fichier.
 
 ---
 
