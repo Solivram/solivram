@@ -150,13 +150,13 @@ sudo rm -rf /var/lib/solivram/ /etc/solivram/
 
 Rechargement de la configuration via votre terminal
 
-> Authentifiez-vous:
+- Authentifiez-vous:
 
-export ADMIN_TOKEN=$(sudo grep '^admin_token' /etc/solivram/default.toml | cut -d'"' -f2)
+> export ADMIN_TOKEN=$(sudo grep '^admin_token' /etc/solivram/default.toml | cut -d'"' -f2)
 
-> Rechargement:
+- Rechargement: exemple solivram.rust pour la variable api_hostname configuré dans default.toml
 
-curl -s -X POST "https://solivram.rust:8080/api/config/reload" -H "Authorization: Bearer $ADMIN_TOKEN" | python3 -m json.tool
+> curl -s -X POST "https://solivram.rust:8080/api/config/reload" -H "Authorization: Bearer $ADMIN_TOKEN" | python3 -m json.tool
 
 ---
 
