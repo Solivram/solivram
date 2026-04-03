@@ -139,6 +139,27 @@ sudo rm -rf /var/lib/solivram/ /etc/solivram/
 
 ---
 
+#### Rechargement à chaud
+- Modifier `[firewall.outbound_services]` dans `config.toml`
+- `POST /api/config/reload` → NftablesManager reconstruit `chain output` + `chain input` sans redémarrage
+- `sections_modifiees()` détecte automatiquement les changements `[firewall]`
+
+---
+
+### Exemple:
+
+Rechargement de la configuration via votre terminal
+
+> Authentifiez-vous:
+
+export ADMIN_TOKEN=$(sudo grep '^admin_token' /etc/solivram/default.toml | cut -d'"' -f2)
+
+> Rechargement:
+
+curl -s -X POST "https://solivram.rust:8080/api/config/reload" -H "Authorization: Bearer $ADMIN_TOKEN" | python3 -m json.tool
+
+---
+
 ## Documentation
 
 | Document | Français | English |
