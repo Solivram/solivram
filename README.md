@@ -22,7 +22,7 @@
 </p>
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-03-30 — Phase 247 — 1622 tests
+**Version** : 0.2.0 — 2026-04-04 — Phase 248 — 1625 tests
 **Type** : Post-Quantum Infrastructure Engine
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
@@ -148,7 +148,7 @@ sudo rm -rf /var/lib/solivram/ /etc/solivram/
 
 ### Exemple:
 
-Rechargement de la configuration via votre terminal
+Rechargement de la configuration du fichier default.toml via votre terminal.
 
 - Authentifiez-vous:
 
