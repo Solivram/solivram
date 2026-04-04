@@ -154,7 +154,7 @@ Rechargement de la configuration du fichier default.toml via votre terminal.
 
 > export ADMIN_TOKEN=$(sudo grep '^admin_token' /etc/solivram/default.toml | cut -d'"' -f2)
 
-- Rechargement: exemple solivram.rust pour la variable api_hostname configuré dans default.toml
+- Rechargement: exemple solivram.rust pour la variable api_hostname configurée dans default.toml
 
 > curl -s -X POST "https://solivram.rust:8080/api/config/reload" -H "Authorization: Bearer $ADMIN_TOKEN" | python3 -m json.tool
 
