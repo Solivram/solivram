@@ -62,6 +62,10 @@ Package Solivram compatible ARM64 bientôt disponible.
 | **Trust inter-nœuds** | Signaux de confiance, API admin accept/revoke |
 | **GUI native** | Interface egui |
 | **Sessions sécurisées** | TTL 1h + 2FA TOTP RFC 6238 |
+| **Firewall nftables** | Gestion nftables intégrée — modes strict/permissif, ambient capabilities, whitelist outbound déclarative |
+| **Fédération inter-clusters** | Sync KV/CRL multi-clusters, quarantaine, trust fédéré |
+| **Sauvegarde chiffrée** | Snapshots AES-256-GCM, upload distant, scheduler automatique |
+| **Mémoire cognitive** | 18 endpoints `/api/memory/*`, SQLite WAL, TF-IDF, rate limiters TOML |
 
 ---
 
@@ -93,7 +97,7 @@ solivram --help
 | | Valeur | Détail |
 |--|--------|--------|
 | **Téléchargement** | ~19 Mo | Archive `.deb` compressée |
-| **Installé sur disque** | ~77 Mo | Binaire Rust non compressé |
+| **Installé sur disque** | ~79 Mo | Binaire Rust non compressé |
 
 **Dépendances** : `libwayland-client0` · `libudev1` · `libasound2` · `libgcc-s1` · `libc6` · `libffi8` · `libcap2` · `libcap2-bin` · `nftables`
 
@@ -164,11 +168,8 @@ Rechargement de la configuration du fichier default.toml via votre terminal.
 
 | Document | Français | English |
 |----------|----------|---------|
-| **Configuration production** | [Solivram_Config_Prod_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_FR.pdf) | [Solivram_Config_Prod_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_EN.pdf) |
-| **Configuration complète** | [Solivram_Config_Prod_full_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_full_FR.pdf) | [Solivram_Config_Prod_full_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Config_Prod_full_EN.pdf) |
-| **Exception hot-reload security_level** | [FR](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_FR.pdf) | [EN](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Exception_Hot_Reload_Security_Level_EN.pdf) |
-| **Roadmap v0.2.0** | [Solivram_Roadmap_v0.2.0_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Roadmap_v0.2.0_FR.pdf) | [Solivram_Roadmap_v0.2.0_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Roadmap_v0.2.0_EN.pdf) |
-| **Architecture** | [Solivram_Architecture.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Architecture.pdf) | [Solivram_Architecture_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Architecture_EN.pdf) |
+| **Mise en garde & cartographie** | [Solivram_Mise_En_Garde_FR.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Mise_En_Garde_FR.pdf) | [Solivram_Warning_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Warning_EN.pdf) |
+| **Quickstart** | [Solivram_Quickstart.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Quickstart.pdf) | [Solivram_Quickstart_EN.pdf](https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/Solivram_Quickstart_EN.pdf) |
 
 ---
 
