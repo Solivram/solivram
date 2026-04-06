@@ -22,7 +22,7 @@
 </p>
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-04-04 — Phase 255 — 1653 tests
+**Version** : 0.2.0 — 2026-04-06 — Phase 271 — 1722 tests
 **Type** : Post-Quantum Infrastructure Engine
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
