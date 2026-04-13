@@ -21,6 +21,11 @@
   </a>
 </p>
 
+> **Version GitHub** — solivram v0.2.0 · Phase 271 · 1722 tests — version de base open-source  
+> **Version Production-Grade** — solivram v0.2.0 · Phase 311 · 1929 tests ✅ — disponible sur [solivram.com](https://solivram.com)  
+>  
+> Infrastructure solivram : PKI interne JenkaCA · HTTPS TOFU nœuds · TLS API interne hot-swap ArcSwap · binaire signé P-256 + ML-DSA-65 · vérifiable via `solivram identity:verify`
+
 **Auteur** : Jenka Nauta — France
 **Version** : 0.2.0 — 2026-04-06 — Phase 271 — 1722 tests
 **Type** : Post-Quantum Infrastructure Engine
