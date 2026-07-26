@@ -43,7 +43,7 @@ Package Solivram version Production-Grade disponible en production réel pour le
 **Auteur** : Jenka Nauta — France
 **Version** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
 **Type** : Post-Quantum Infrastructure Engine
-**Releases** : [solivram.com](https://solivram.com)
+**En production** : [solivram.com](https://solivram.com)
 
 ---
 
