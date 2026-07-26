@@ -28,6 +28,7 @@ Package Solivram version Github disponible uniquement pour tester en local.
 ---
 
 > **Version GitHub** — solivram v0.2.0 · Phase 271 · 1722 tests — version de base open-source (Ne pas déployer en production la version github)
+**Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
 ---
 
@@ -42,7 +43,7 @@ Package Solivram version Production-Grade disponible en production réel pour le
 **Auteur** : Jenka Nauta — France
 **Version** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
 **Type** : Post-Quantum Infrastructure Engine
-**Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
+**Releases** : [solivram.com](https://solivram.com)
 
 ---
 
