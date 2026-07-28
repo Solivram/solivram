@@ -31,8 +31,6 @@ Package Solivram version Github disponible uniquement pour tester en local.
 
 ---
 
----
-
 <p align="center">
   <a href="https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb">
     <img src="https://img.shields.io/badge/⬇️%20Télécharger%20solivram%20v0.2.0%20(.deb)-2ea44f?style=for-the-badge" alt="Télécharger"/>
