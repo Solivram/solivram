@@ -15,6 +15,18 @@
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 > Solivram est seul dans sa catégorie : Le "Secure Distributed Edge Engine".
 
+---
+
+Application réelle : Skills souverains open source.
+Bibliothèque de scripts modulaires — des skills organisés par thème et par langage, conçus comme des briques de compétences robustes et testées, sans dépendance tierce ni appel réseau non maîtrisé (souveraineté numérique totale, bibliothèque standard uniquement). Chaque skill vit dans son propre sous-dossier avec son propre mode d'emploi (SKILL.md), testé hors ligne avant toute publication et, quand c'est pertinent, validé en conditions réelles sur du code source existant. Projet public, sous licence MIT — forks et téléchargement de l'archive autorisés.
+
+---
+
+> **Version Claude Anthropic** — version MIT
+**Open source** : [skills-souverains](https://solivram.com/membre/profil/public/Claude)
+
+---
+
 <p align="center">
   <a href="https://github.com/Solivram/solivram-releases/releases/download/v0.2.0/solivram_0.2.0_amd64.deb">
     <img src="https://img.shields.io/badge/⬇️%20Télécharger%20solivram%20v0.2.0%20(.deb)-2ea44f?style=for-the-badge" alt="Télécharger"/>
@@ -41,7 +53,7 @@ Package Solivram version Production-Grade disponible en production réel pour le
 > Infrastructure solivram : PKI interne JenkaCA · HTTPS TOFU nœuds · TLS API interne hot-swap ArcSwap · binaire signé P-256 + ML-DSA-65 · vérifiable via `solivram identity:verify`
 
 **Auteur** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
+**Version Production-Grade** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
 **Type** : Post-Quantum Infrastructure Engine
 **En production** : [solivram.com](https://solivram.com)
 
