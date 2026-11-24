@@ -15,6 +15,13 @@
 > Infrastructure distribuée haute disponibilité, sécurisée post-quantique, observable et extensible, conçue en Rust pur pour des environnements critiques.
 > Solivram est seul dans sa catégorie : Le "Secure Distributed Edge Engine".
 
+> Solivram n'a pas besoin d'installer les dépendances ci-dessous:
+
+❌ nginx
+❌ Docker
+❌ Kubernetes / Istio / Vault
+❌ Redis, Postgres, etc....
+
 ---
 
 Package Solivram version Production-Grade disponible en téléchargement exclusivement pour les utilisateurs depuis la plateforme.
