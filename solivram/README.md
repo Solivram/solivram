@@ -5,7 +5,7 @@ Package Solivram version Github disponible uniquement pour tester en local.
 
 ---
 
-Full Package
+Full Package:
 La version complète est disponible uniquement sur la plateforme solivram.com.
 
 > **Version Full package Solivram - GNU /Linux** — version MIT
