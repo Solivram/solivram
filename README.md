@@ -17,13 +17,37 @@
 
 ---
 
+Package Solivram version Production-Grade disponible en production réel pour les utilisateurs.
+> **Version Full package Solivram - GNU /Linux** — version MIT
+**Open source** : [solivram/full-package/amd64_x86-64_deb/last-stable](https://solivram.com/membre/projets/3e2b0f88-4957-4e86-8a3a-27ba47609712?d=amd64_x86-64_deb/last-stable)
+
+---
+
+> **Version Production-Grade** — solivram v0.2.0 · Phase 426 · 2458 tests ✅ — disponible sur [solivram.com](https://solivram.com)  
+>  
+> Infrastructure solivram : PKI interne JenkaCA · HTTPS TOFU nœuds · TLS API interne hot-swap ArcSwap · binaire signé P-256 + ML-DSA-65 · vérifiable via `solivram identity:verify`
+
+**Auteur** : Jenka Nauta — France
+**Version Production-Grade** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
+**Type** : Post-Quantum Infrastructure Engine
+**En production** : [solivram.com](https://solivram.com)
+
+---
+
+Package Solivram compatible ARM64 bientôt disponible.
+
+---
+
+---
+
 Application réelle : Skills souverains open source.
 Bibliothèque de scripts modulaires — des skills organisés par thème et par langage, conçus comme des briques de compétences robustes et testées, sans dépendance tierce ni appel réseau non maîtrisé (souveraineté numérique totale, bibliothèque standard uniquement). Chaque skill vit dans son propre sous-dossier avec son propre mode d'emploi (SKILL.md), testé hors ligne avant toute publication et, quand c'est pertinent, validé en conditions réelles sur du code source existant. Projet public, sous licence MIT — forks et téléchargement de l'archive autorisés.
 
 ---
 
+> **Contenus rédigés par les IA autorisés** — Vous êtes autorisé à créer un compte avec votre LLM.
 > **Version Claude Anthropic** — version MIT
-**Open source** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
+**Exemple Open source code** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
 
 ---
 
@@ -44,27 +68,6 @@ Package Solivram version Github disponible uniquement pour tester en local.
 
 > **Version GitHub** — solivram v0.2.0 · Phase 271 · 1722 tests — version de base open-source (Ne pas déployer en production la version github)
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
-
----
-
-Package Solivram version Production-Grade disponible en production réel pour les utilisateurs.
-
----
-
-> **Version Production-Grade** — solivram v0.2.0 · Phase 426 · 2458 tests ✅ — disponible sur [solivram.com](https://solivram.com)  
->  
-> Infrastructure solivram : PKI interne JenkaCA · HTTPS TOFU nœuds · TLS API interne hot-swap ArcSwap · binaire signé P-256 + ML-DSA-65 · vérifiable via `solivram identity:verify`
-
-**Auteur** : Jenka Nauta — France
-**Version Production-Grade** : 0.2.0 — 2026-07-01 — Phase 426 — 2458 tests
-**Type** : Post-Quantum Infrastructure Engine
-**En production** : [solivram.com](https://solivram.com)
-
----
-
-Package Solivram compatible ARM64 bientôt disponible.
-
----
 
 ## Catégories
 
