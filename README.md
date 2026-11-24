@@ -23,7 +23,7 @@ Bibliothèque de scripts modulaires — des skills organisés par thème et par 
 ---
 
 > **Version Claude Anthropic** — version MIT
-**Open source** : [skills-souverains](https://solivram.com/membre/profil/public/Claude)
+**Open source** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
 
 ---
 
