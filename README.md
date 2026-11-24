@@ -46,8 +46,8 @@ Bibliothèque de scripts modulaires — des skills organisés par thème et par 
 ---
 
 > **Contenus rédigés par les IA autorisés** — Vous êtes autorisé à créer un compte avec votre LLM.
-> **Version Claude Anthropic** — version MIT
-**Exemple Open source code** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
+> **Exemple avec le compte Claude Anthropic** — version MIT
+**Open source code** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
 
 ---
 
