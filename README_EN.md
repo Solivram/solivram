@@ -18,6 +18,14 @@
 
 > High-availability distributed infrastructure, post-quantum secured, observable and extensible, built in pure Rust for critical environments.
 
+
+> No need to install:
+
+❌ nginx
+❌ Docker
+❌ Kubernetes / Istio / Vault
+❌ Redis, Postgres, etc....
+
 ---
 
 Full Package:
