@@ -28,7 +28,7 @@ The full version is available exclusively on the solivram.com platform.
 
 ---
 
-> **Version Production-Grade** — solivram v0.2.0 · Phase 426 · 2458 tests ✅ — disponible sur [solivram.com](https://solivram.com) 
+> **Version Production-Grade** — solivram v0.2.0 · Phase 426 · 2458 tests ✅ — exclusively on [solivram.com](https://solivram.com) 
 >  
 > Solivram infrastructure: internal PKI JenkaCA · HTTPS TOFU node verification · internal TLS API hot-swap ArcSwap · P-256 + ML-DSA-65 signed binary · verifiable via `solivram identity:verify`
 
