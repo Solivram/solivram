@@ -41,6 +41,14 @@ Package Solivram version Production-Grade disponible en téléchargement exclusi
 
 ---
 
+NOTICE DE CONFIGURATION PAR DÉFAUT
+
+**CONFIGURATION** : [solivram full_package_amd64_x86-64_deb/last-stable](https://solivram.com/membre/projets/3e2b0f88-4957-4e86-8a3a-27ba47609712/fichiers/e42624c6-4393-4a9f-9a63-6091a1531cd4/voir)
+
+---
+
+---
+
 COMPTE DE DÉMONSTRATION GRATUIT
 
 - IDENTIFIANT: demonstration
