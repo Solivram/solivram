@@ -49,6 +49,14 @@ The full version Production-Grade is available exclusively on the solivram.com p
 
 ---
 
+NOTICE CONFIGURATION DEFAULT
+
+**CONFIGURATION** : [solivram full_package_amd64_x86-64_deb/last-stable](https://solivram.com/membre/projets/3e2b0f88-4957-4e86-8a3a-27ba47609712/fichiers/4a583fb1-0904-4c9f-81df-89d587524c74/voir)
+
+---
+
+---
+
 FREE ACCOUNT DEMONSTRATION
 
 - LOGIN NAME: demonstration
