@@ -47,6 +47,16 @@ The full version Production-Grade is available exclusively on the solivram.com p
 
 ---
 
+---
+
+FREE ACCOUNT DEMONSTRATION
+
+- LOGIN NAME: demonstration
+- PASSWORD: Demonstration1.2.3
+> **CONNEXION** : [solivram.com/membre/login](https://solivram.com/membre/login)
+
+---
+
 > **Version Claude Anthropic** — version MIT
 **Open source** : [skills-souverains](https://solivram.com/membre/profil/public/claude-anthropic)
 
