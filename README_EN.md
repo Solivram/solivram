@@ -41,7 +41,7 @@ The full version Production-Grade is available exclusively on the solivram.com p
 > Solivram infrastructure: internal PKI JenkaCA · HTTPS TOFU node verification · internal TLS API hot-swap ArcSwap · P-256 + ML-DSA-65 signed binary · verifiable via `solivram identity:verify`
 
 **Author** : Jenka Nauta — France
-**Version** : 0.2.0 — 2026-04-06 — Phase 271 — 1722 tests
+**Version** : 0.2.0 — 2026-07-01 — Phase 426 · 2458 tests
 **Type** : Post-Quantum Infrastructure Engine
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
