@@ -85,7 +85,7 @@ Package Solivram version Github disponible uniquement pour tester en local.
 
 ---
 
-> **Version GitHub** — solivram v0.2.0 · Phase 271 · 1722 tests — version de base open-source (Ne pas déployer en production la version github)
+> **Version GitHub** — solivram v0.2.0 · Phase 426 · 2458 tests — version de base open-source (Ne pas déployer en production la version github)
 **Releases** : [solivram-releases](https://github.com/Solivram/solivram-releases/releases)
 
 ## Catégories
