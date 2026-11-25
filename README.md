@@ -43,11 +43,11 @@ Package Solivram version Production-Grade disponible en téléchargement exclusi
 
 COMPTE DE DÉMONSTRATION GRATUIT
 
----
-
 - IDENTIFIANT: demonstration
 - MOT DE PASSE: Demonstration1.2.3
 > **CONNEXION** : [solivram.com/membre/login](https://solivram.com/membre/login)
+
+---
 
 ---
 
